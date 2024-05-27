@@ -1,0 +1,40 @@
+.headerContainer {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 0;
+  margin-bottom: 40px;
+}
+.headerText {
+  margin-top: 45px;
+  line-height: 1.3em;
+  font-family: Montserrat;
+  font-size: 1.75rem;
+  font-weight: 700;
+  width: 375px;
+  text-align: center;
+}
+
+.bodyContainer {
+  width: 360px;
+  margin: 0 auto;
+}
+
+.alertContainer {
+  width: 312px;
+  margin: 0rem auto 2rem;
+}
+
+.btnContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 9.5rem;
+}
+
+.btnContainer Button {
+  text-transform: uppercase;
+  font-family: Montserrat;
+}
+
+.backBtn {
+  font-weight: 300;
+}
