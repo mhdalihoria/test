@@ -10,7 +10,7 @@ import {
   ModalHeader,
   Text,
 } from "@chakra-ui/react";
-import { useEffect, useState } from "react";
+import {  useState } from "react";
 import { LuPencil } from "react-icons/lu";
 import styles from "./ModalIntro.module.css";
 import { useRecoilValue, useSetRecoilState } from "recoil";

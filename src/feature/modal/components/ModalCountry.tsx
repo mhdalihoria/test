@@ -3,11 +3,7 @@ import {
   AlertIcon,
   Box,
   Button,
-  Input,
-  InputGroup,
-  InputRightElement,
   ModalBody,
-  ModalFooter,
   ModalHeader,
   Select,
   Text,
@@ -16,7 +12,7 @@ import styles from "./ModalCountry.module.css";
 import { useRecoilValue, useSetRecoilState } from "recoil";
 import steps from "../recoil/StepsState";
 import fields from "../recoil/FieldsState";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 const countries = [
   {
@@ -54,7 +50,8 @@ export const ModalCountry = () => {
   const [regionFields, setRegionFields] = useState(() => {
     return {
       lang: fieldState.region.lang === "" ? fieldState.region.lang : "",
-      country: fieldState.region.country === "" ? fieldState.region.country : "",
+      country:
+        fieldState.region.country === "" ? fieldState.region.country : "",
     };
   });
   const [isEmpty, setIsEmpty] = useState(false);

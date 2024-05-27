@@ -41,10 +41,8 @@ function App() {
         </Button>
         <StepsModal
           isOpen={isOpen}
-          onOpen={onOpen}
           onClose={onClose}
           currentStep={currentStep}
-          setCurrentStep={setCurrentStep}
         />
       </Container>
     </Box>
